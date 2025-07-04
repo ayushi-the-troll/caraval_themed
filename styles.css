@@ -12,18 +12,22 @@ body {
     background-color: #000000;
 }
 
-h1 {
+.header {
     text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+h1 {
     font-family: Futura Std, sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #eaefd3;
+    color: #ffffff;
 }
 
-#series-name {
-    font-family: Desire;
-    font-weight: 700;;
-    font-size: 100px;
+img {
+    width: 300px;
+    height: auto;
 }
 
 p {
@@ -31,13 +35,14 @@ p {
     font-family: Futura Std, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #eaefd3;
+    color: #ffffff;
 }
 
 .book-covers {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 40px;
 }
 .book-covers img {
     width: 150px;

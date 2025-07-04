@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
+@font-face {
+  font-family: 'Desire'; /* Choose a name for your font */
+  src: url('fonts/Desire-Regular.woff2') format('woff2'), /* Provide the path to your font file(s) */
+       url('fonts/Desire-Regular.woff') format('woff');
+  font-weight: normal; /* Define the font weight if needed */
+  font-style: normal; /* Define the font style if needed */
+}
+
+
+body {
+    background-color: ;
+}
+
+h1 {
+    text-align: center;
+    font-family: Futura Std, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#series-name {
+    font-family: Desire;
+    font-weight: 700;;
+    font-size: 100px;
+}
+
+p {
+    text-align: center;
+    font-family: Futura Std, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.book-covers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.book-covers img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
